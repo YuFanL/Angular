@@ -1,0 +1,16 @@
+<section>
+  <h3>正在进行</h3>
+  <ul>
+    <li *ngFor="let item of arr1;let idx = index;">
+      <input type="checkbox" (change)="change(idx)"> {{item}} 
+      <button (click)="delData1(idx)">-</button>
+    </li>
+  </ul>
+  <h3>已经完成</h3>
+  <ul>
+    <li *ngFor="let item of arr2;let idx = index;">
+      <input type="checkbox" checked (change)="change2(idx)">{{item}} <button (click)="delData2(idx)">-</button>
+    </li> 
+  </ul>
+
+</section>
