@@ -1,0 +1,94 @@
+
+.swiper-wrapper{
+    height: 30%;
+}
+ion-app.ios [padding] .scroll-content{
+    padding: 0px;
+}
+ion-title img{
+    width:50%;
+}
+.content1{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-bottom:0.55px solid #c8c7cc
+}
+.content1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+div.content1 .item1{
+    text-align: center;
+    width: 25%;
+    height:100px;
+    float: left;
+    
+}
+div.content1 .item1 img{
+    width: 40%;
+}
+.great-inf{
+    padding-top: 5px;
+    width: 100%;
+    height: 30px;
+    color: rgb(179,179,179);
+    padding-left: 20px;
+    border-top: 0.55px solid #c8c7cc
+}
+.great-inf .great-inf-img{
+    height:20px;
+}
+.findinf{
+ width: 50%;
+
+}
+.findser{
+    width: 50%;
+}
+.toolbar-ios .segment-button {
+    max-width: 50%; 
+    height: 2.6rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: mainColor;
+}
+.segment-ios .segment-button.segment-activated {
+    border: 0px;
+    color:orange;
+    border-bottom: 2px solid rgb(254,219,71);
+    background-color: white;
+    opacity: 1;
+    -webkit-transition: 100ms all linear;
+    transition: 100ms all linear;
+}
+.segment-ios .segment-button{
+    border: 0px;
+    background-color: white;
+    color: rgb(179,179,179);
+}
+.toolbar-ios .segment-ios {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: white;
+}
+.list-ios[inset] > .item:last-child, .list-ios[inset] > .item-wrapper:last-child .item {
+    border-bottom: 1px solid #c8c7cc;
+}
+
+.list-ios[inset] .item {
+    border-bottom: 1px solid #c8c7cc;
+}
+.item-content {
+    /* float: left; */
+    position: absolute;
+    left: 190px;
+}
+.money{
+    color: red;
+}
