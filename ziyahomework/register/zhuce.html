@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar color='bgColor'>
+      <img src="assets/imgs/left_white.png" alt="" (click)='back()'>
+      <span>手机注册</span>
+    </ion-navbar>
+</ion-header>
+  
+<ion-content padding style="background-image:url(assets/imgs/bg.png);background-size:contain;" text-center>
+
+<form class="form1">
+    <ion-item>
+        <ion-icon name="person" color='light'></ion-icon>
+        <input type="text" placeholder="请输入用户名">
+    </ion-item>
+    
+    <ion-item>
+        <ion-icon name="lock" color='light'></ion-icon>
+        <input type="password" placeholder="请输入密码">
+     </ion-item>
+     
+    <ion-item>
+        <ion-icon name="lock" color='light'></ion-icon>
+        <input type="password" placeholder="请再次输入密码">
+    </ion-item>
+</form>
+
+<button  class="zhuce" (click)='zhuce()'>注册</button>
+<ion-item text-center class="spe">
+    <input type="checkbox" checked>
+    <span>我已阅读并同意<u (click)="zhucetxt()">《注册协议》</u></span>
+</ion-item>
+
+</ion-content>

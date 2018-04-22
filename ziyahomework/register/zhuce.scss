@@ -1,0 +1,131 @@
+page-zhuce {
+    input[type='checkbox']{
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        -webkit-appearance:none;
+        border: 1px solid #c9c9c9;
+        border-radius: 2px;
+        outline: none;
+    }
+      input[type='checkbox']:checked{
+            background: url("../../assets/imgs/dui.png") no-repeat center;
+         }
+        input::-webkit-input-placeholder{ /*WebKit browsers*/
+    
+            color:white;
+            font-size: 16px;
+            
+            }
+        ion-navbar {
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            }
+            ion-navbar img{
+                float: left;
+                width: 30px;
+                margin-left: 10px;
+                margin-top: 5px;
+            }
+            ion-navbar span{
+                display: inline-block;
+                margin-top: 10px;
+                margin-left: -30px;
+            }
+            ion-content{
+                color: white;
+            }
+            ion-content img{
+                width: 150px;
+                margin-top: 20px;
+            }
+            ion-content p{
+                color: white;
+            }
+            .item-md{
+                background-color: rgba(0,0,0,0.01);
+            }
+            .list-md .item-input:last-child{
+                border: 0px;
+            }
+            .list-md .item-block .item-inner{
+                border: 0px;
+                width: 100px;
+            }
+            .item-md.item-input.item-input-has-focus .item-inner, .item-md.item-input.input-has-focus .item-inner{
+                border-bottom-color:white;
+            }
+            .form1{
+                margin-top: 60px;
+                text-align: center;
+            }
+    
+            .denglu{
+               background-color: rgb(254,219,71);
+               border-radius: 20px;
+               border: 0px;
+                width: 80%;
+                height: 40px;
+               font-size: 16px;
+               margin-top: 20px;
+            }
+            .zhuce{
+                width: 80%;
+                font-size: 16px;
+            
+                border-radius: 20px;
+                height: 40px;
+                background-color: rgb(254,219,71);
+                color: black;
+                margin-top: 20px;
+            }
+            .form1 div{
+                margin: 1px 16px 1px 15px;
+            }
+            form div:after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+            .form1 div ion-icon{
+                float: left;
+                font-size: 3.1rem
+            }
+            .form1 input:focus{
+                color: white;
+            }
+            .form1 input{
+                color: white;
+                display: block;
+                width: 80%;
+                height: 30px;
+                float: right;
+                background-color: rgba(0,0,0,0.01);
+                border: 0px;
+                border-bottom: 1px solid white;        
+            }
+            .item-md.item-block .item-inner{
+                border: 0px;
+            }
+            .text{
+                color:white;
+            }
+            .spe{
+          
+                height: 30px;
+                line-height: 30px;
+                color: white;
+                margin-top:20px;
+ 
+            }
+            .spe input{
+                height: 12px;
+                width: 12px;
+            }
+            .spe span{
+              font-size: 1.3rem;
+                color: white;
+            }
+      
+}

@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-navbar color='bgColor'>
+      <img src="assets/imgs/left_white.png" alt="" (click)='back()'>
+      <span>登录</span>
+    </ion-navbar>
+</ion-header>
+  
+<ion-content padding style="background-image:url(assets/imgs/bg.png);background-size:contain;" text-center>
+<img src="assets/imgs/load2.png" alt="">
+<p>全球不良资产超级综合服务平台</p>
+
+<form class="form1">
+  <div>
+      <ion-icon name="person" color='light'></ion-icon>
+      <input type="text" placeholder="请输入用户名">
+  </div>
+   <div>
+      <ion-icon name="lock" color='light'></ion-icon>
+      <input type="password" placeholder="请输入密码">
+   </div>
+ 
+</form>
+
+<button  class="denglu">登录</button>
+<button  class="zhuce" (click)='zhuce()'>注册</button>
+<p style="font-size:14px;">忘记密码?</p>
+</ion-content>

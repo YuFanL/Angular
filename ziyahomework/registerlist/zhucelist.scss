@@ -1,0 +1,24 @@
+page-zhucelist {
+    ion-navbar {
+        text-align: center;
+        font-size: 2rem;
+        }
+        ion-navbar img{
+            float: left;
+            width: 10px;
+            margin-left: 10px;
+        }
+        ion-navbar span{
+            margin-left: -10px;
+        }
+        [padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child {
+            margin-top: 10px;
+        }
+        p{
+            padding: 0px 10px 0px 10px;
+            letter-spacing:3px;
+        }
+        h5{
+            padding: 0px 10px 0px 10px;
+        }
+}
